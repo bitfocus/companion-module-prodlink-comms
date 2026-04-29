@@ -1,0 +1,27 @@
+{
+	"type": "connection",
+	"id": "prodlink-comms",
+	"name": "prodlink-comms",
+	"shortname": "ProdLink Comms",
+	"description": "Control ProdLink Comms production intercom — PTT, listen, latch channels, apply role presets, and monitor talk state from your Stream Deck.",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-prodlink-comms.git",
+	"bugs": "https://github.com/bitfocus/companion-module-prodlink-comms/issues",
+	"maintainers": [
+		{
+			"name": "ProdLink",
+			"email": "support@prodcontrol.io"
+		}
+	],
+	"legacyIds": [],
+	"manufacturer": "ProdLink",
+	"products": ["Comms"],
+	"keywords": ["intercom", "comms", "production", "ptt", "push-to-talk", "prodlink"],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "2.0.0",
+		"entrypoint": "../dist/main.js"
+	}
+}
